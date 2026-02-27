@@ -20,7 +20,7 @@
 La relación más importante a destacar es la N:M de PEDIDO-PRODUCTO, ya que es la única que requiere una entidad asociativa para poder implementarse en base de datos.
 
 ## Relational Model
-![Relational Model](assets/model.png)
+![Relational Model](assets/model.PNG)
 
 ### Análisis del modelo
 
