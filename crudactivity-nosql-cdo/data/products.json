@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "product_001",
+    "product_name": "Plantilla CRM Notion",
+    "description": "Sistema CRM completo en Notion para equipos de ventas",
+    "category_id": "category_001",
+    "seller_id": "seller_001",
+    "price": 120000,
+    "is_active": true,
+    "created_at": "2026-01-08T12:00:00Z"
+  }
+]

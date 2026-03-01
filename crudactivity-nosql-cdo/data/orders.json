@@ -1,0 +1,63 @@
+[
+  {
+    "_id": "order_001",
+    "client_id": "client_001",
+
+    "client_snapshot": {
+      "full_name": "Laura Gómez",
+      "email": "laura@mail.com"
+    },
+
+    "items": [
+      {
+        "product_id": "product_001",
+        "product_name": "Plantilla CRM Notion",
+        "quantity": 2,
+        "unit_price": 120000,
+        "sub_total": 240000,
+        "partner_id": "partner_001",
+        "partner_name": "AgencyPro Studio"
+      }
+    ],
+
+    "payments": [
+      {
+        "attempt": 1,
+        "amount": 120000,
+        "method": "CARD",
+        "status": "PENDING",
+        "paid_at": "2026-01-15T14:29:00Z"
+      },
+      {
+        "attempt": 2,
+        "amount": 120000,
+        "method": "CARD",
+        "status": "APPROVED",
+        "paid_at": "2026-01-15T14:30:00Z"
+      }
+    ],
+
+    "status": "IN_PROGRESS",
+
+    "order_history": [
+      {
+        "from": "CREATED",
+        "to": "PAID",
+        "changed_at": "2026-01-15T14:30:00Z"
+      },
+      {
+        "from": "PAID",
+        "to": "IN_PROGRESS",
+        "changed_at": "2026-01-15T14:37:00Z"
+      }
+    ],
+
+    "total_amount": 240000,
+
+    "created_at": "2026-01-15T14:28:00Z",
+
+    "fulfillment": {
+      "status": "PENDING"
+    }
+  }
+]
